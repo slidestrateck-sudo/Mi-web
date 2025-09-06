@@ -276,11 +276,20 @@
                 
                 <div class="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
                     <!-- Web Design -->
-                    <div class="service-card p-6 md:p-8">
-                        <h4 class="text-2xl md:text-3xl font-bold mb-4 text-white">Diseño y Desarrollo Web</h4>
-                        <p class="text-gray-300 mb-4">Sitios web modernos y de alto rendimiento con enfoque en UX/UI para una experiencia intuitiva y estética.</p>
-                        <p class="text-sm text-gray-400 mb-4"><strong class="text-gray-200">Tecnologías:</strong> HTML, CSS, JavaScript.</p>
-                         <div class="bg-blue-900/50 text-blue-200 rounded-lg p-3 text-center">
+                    <div class="service-card p-6 md:p-8 flex flex-col">
+                        <div class="flex-grow">
+                            <h4 class="text-2xl md:text-3xl font-bold mb-4 text-white">Diseño y Desarrollo Web</h4>
+                            <p class="text-gray-300 mb-4">Sitios web modernos y de alto rendimiento con enfoque en UX/UI para una experiencia intuitiva y estética.</p>
+                            <p class="text-sm text-gray-400 mb-4"><strong class="text-gray-200">Tecnologías:</strong> HTML, CSS, JavaScript.</p>
+                            
+                            <div class="mt-4 pt-4 border-t border-gray-600">
+                                <h5 class="font-bold text-violet-300">Valor Agregado</h5>
+                                <p class="text-sm text-gray-400">
+                                    Por solo <span class="font-bold text-white price" data-price-usd="10"></span> adicionales, también nos encargamos de subir tu página web a internet.
+                                </p>
+                            </div>
+                        </div>
+                         <div class="bg-blue-900/50 text-blue-200 rounded-lg p-3 text-center mt-6">
                             <span class="font-bold text-lg md:text-xl">Precio Alto</span>
                             <p class="text-sm">Codificación a medida para máxima flexibilidad.</p>
                         </div>
@@ -509,4 +518,5 @@
     </script>
 </body>
 </html>
+
 
